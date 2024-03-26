@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
- 
+    use HasFactory;
      protected $table = 'projects';
     protected $primaryKey = 'id';
     protected $fillable = [
@@ -15,5 +15,5 @@ class Project extends Model
         'status',
         'date'
     ];
-       use HasFactory;
+       
 }
