@@ -9,7 +9,9 @@
     
 </head>
 <body>
+    
     <div class="container m-5">
+       
         @yield('content')
     </div>
 </body>
