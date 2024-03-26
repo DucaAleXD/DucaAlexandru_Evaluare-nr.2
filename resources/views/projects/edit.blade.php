@@ -18,7 +18,7 @@
         <label>Status</label><br>
         <input type="text" name="status" id="status" value="{{$project->status}}" class="form-control"><br>
         <label>Date</label><br>
-        <input type="text" name="date" id="date" value="{{$project->date}}" class="form-control"><br>
+        <input type="date" name="date" id="date" value="{{$project->date}}" class="form-control"><br>
         <input type="submit" value="Update" class="btn btn-success"><br>
     </form>
    

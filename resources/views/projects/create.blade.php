@@ -15,7 +15,7 @@
         <label>Starea</label></br>
         <input type="text" name="status" id="status" class="form-control"></br>
         <label>Data</label></br>
-        <input type="text" name="date" id="date" class="form-control"></br>
+        <input type="date" name="date" id="date" class="form-control"></br>
         <input type="submit" value="Save" class="btn btn-success"></br>
     </form>
    
